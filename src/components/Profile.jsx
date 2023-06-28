@@ -1,4 +1,4 @@
-import miffyWithBear from "../assets/imgs/miffyWithBear.png";
+import miffyWithBear from "../assets/imgs/miffywithbear.png";
 import styled from "styled-components";
 
 const ProfileContainer = styled.div`
