@@ -8,11 +8,11 @@ const TextContainer = styled.div`
   position: relative;
   width: 100%;
   height: 100%;
-  border-bottom: 1rem solid #ccc;
+  border-bottom: 1px solid #ccc;
 
   .title {
     cursor: pointer;
-    margin-bottom: 20rem;
+    margin-bottom: 20px;
   }
 
   // form {
@@ -21,21 +21,21 @@ const TextContainer = styled.div`
   // }
 
   input {
-    width: 200rem;
-    height: 100rem;
+    width: 200px;
+    height: 100px;
     border: 0;
-    border-bottom: 1rem solid #ccc;
+    border-bottom: 1px solid #ccc;
     outline: none;
   }
 
   button[type="submit"] {
     display: block;
-    padding: 10rem;
-    margin-top: 20rem;
-    border-radius: 5rem;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
     position: relative;
     overflow: hidden;
-    border: 1rem solid var(--border);
+    border: 1px solid var(--border);
 
     .gradient {
       position: absolute;
@@ -43,8 +43,8 @@ const TextContainer = styled.div`
       height: 100%;
       left: 0;
       top: 0;
-      border-radius: 5rem;
-      margin-top: 20rem;
+      border-radius: 5px;
+      margin-top: 20px;
       background-image: linear-gradient(
         rgba(0, 0, 0, 0),
         rgba(0, 0, 0, 0),
@@ -73,8 +73,8 @@ const TextContainer = styled.div`
   }
 
   button[type="submit"]:hover .transition {
-    width: 80rem;
-    height: 80rem;
+    width: 80px;
+    height: 80px;
   }
   button[type="submit"]:hover .label {
     color: var(--white);
@@ -87,16 +87,21 @@ const CalendarContainer = styled.div`
   bottom: 0;
   height: 100%;
 
+  @media(max-width: 768px){
+    position: relative;
+  }
   .calendar {
     position: relative;
-    max-width: 200rem;
-    padding: 20rem;
-    margin: 20rem;
-    border-radius: 5rem;
-    border: 1rem solid var(--border);
-
+    max-width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 1px solid var(--border);
+    @media(max-width: 768px){
+      margin-left: 0;
+    }
     @media (max-width: 540px) {
-      padding: 10rem;
+      padding: 10px;
     }
   }
 
@@ -113,7 +118,7 @@ const CalendarContainer = styled.div`
     @media (max-width: 540px) {
       position: relative;
       justify-content: end;
-      margin-top: 10rem;
+      margin-top: 10px;
     }
     button {
       color: var(--border);
@@ -122,17 +127,17 @@ const CalendarContainer = styled.div`
   }
 
   .dates {
-    margin-bottom: 5rem;
+    margin-bottom: 5px;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    font-size: 10rem;
+    font-size: 10px;
     justify-items: center;
     font-weight: bold;
   }
   .date {
-    padding: 4rem 5rem;
+    padding: 4px 5px;
     display: inline-block;
-    border-radius: 5rem;
+    border-radius: 5px;
   }
   .date:nth-child(7n) {
     color: var(--deepblue);
@@ -145,13 +150,13 @@ const CalendarContainer = styled.div`
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     justify-items: center;
-    font-size: 10rem;
-    row-gap: 5rem;
+    font-size: 10px;
+    row-gap: 5px;
   }
   .days span {
-    padding: 4rem 5rem;
+    padding: 4px 5px;
     display: inline-block;
-    border-radius: 5rem;
+    border-radius: 5px;
     cursor: pointer;
   }
   .days .todayDate {
@@ -175,12 +180,12 @@ const ListContainer = styled.div`
 
   .list-wrap {
     overflow-y: scroll;
-    max-height: 100rem;
+    max-height: 100px;
   }
 
   .list {
-    margin-top: 20rem;
-    padding-left: 20rem;
+    margin-top: 20px;
+    padding-left: 20px;
     position: relative;
   }
   .list:before {

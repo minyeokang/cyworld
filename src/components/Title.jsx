@@ -5,8 +5,8 @@ const TitleContainer = styled.ul`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 16rem;
-  height: 16rem;
+  font-size: 16px;
+  height: 16px;
   
   li:last-child a {
     color: var(--darkgray);

@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Gnb = styled.ul`
   position: absolute;
-  top: 20rem;
+  top: 20px;
   right: 0;
   transform: translateX(100%);
 
@@ -19,26 +19,26 @@ const Gnb = styled.ul`
   li{
     @media (max-width: 540px){
       display: inline-block;
-      margin-right: 10rem;
+      margin-right: 10px;
     }
   }
 
   li a {
     display: block;
-    padding: 7rem;
-    margin-bottom: 3rem;
+    padding: 7px;
+    margin-bottom: 3px;
     background: var(--main);
-    border: 1rem solid var(--border);
-    border-radius: 0 5rem 5rem 0;
+    border: 1px solid var(--border);
+    border-radius: 0 5px 5px 0;
     border-left: 0;
-    font-size: 14rem;
+    font-size: 14px;
     color: var(--white);
     text-align: center;
 
     @media (max-width: 540px){
-      font-size: 12rem;
-      border-left: 1rem solid var(--border);
-      border-radius: 5rem;
+      font-size: 12px;
+      border-left: 1px solid var(--border);
+      border-radius: 5px;
     }
   }
 

@@ -3,16 +3,16 @@ import styled from "styled-components";
 
 const ProfileContainer = styled.div`
   text-align: center;
-  margin: 10rem 0 20rem;
+  margin: 10px 0 20px;
 
   div {
-    clip-path: circle(70rem at center);
+    clip-path: circle(70px at center);
     display: inline-block;
-    max-width: 140rem;
+    max-width: 140px;
 
     @media (max-width: 768px){
-      clip-path: circle(50rem at center);
-      max-width: 100rem;
+      clip-path: circle(50px at center);
+      max-width: 100px;
     }
   }
 
@@ -27,11 +27,11 @@ const ProfileContainer = styled.div`
 `;
 
 const BioContainer = styled.div`
-  padding-top: 25rem;
+  padding-top: 25px;
   position: relative;
 
   @media (max-width: 540px){
-    padding-top: 15rem;
+    padding-top: 15px;
   }
 
   &::before {
@@ -45,7 +45,7 @@ const BioContainer = styled.div`
   }
 
   p {
-    margin-bottom: 12rem;
+    margin-bottom: 12px;
     line-height: 1.3;
   }
 

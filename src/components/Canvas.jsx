@@ -6,17 +6,18 @@ import styled from "styled-components";
 
 const RoomContainer = styled.div`
   width: 100%;
-  height: 250rem;
-  margin-top: 20rem;
+  height: 250px;
+  margin-top: 20px;
 
   @media (max-width: 768px){
     height: 100%;
-    max-height: 200rem;
+    max-height: 200px;
   }
 
   @media (max-width: 540px){
     height: 100%;
     max-height: none;
+    margin-top: 0;
   }
 
   img {

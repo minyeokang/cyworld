@@ -6,9 +6,10 @@ import styled from "styled-components";
 const DiaryContainer = styled.div`
   display: grid;
   grid-template-rows: 2fr 1fr;
-  row-gap: 20rem;
+  row-gap: 20px;
   height: 100vh;
-  max-height: 370rem;
+  max-height: 370px;
+  
 `;
 
 const Diary = () => {

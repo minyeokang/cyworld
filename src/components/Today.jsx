@@ -1,22 +1,22 @@
 import styled from "styled-components";
 const TodayContainer = styled.ul`
   text-align: center;
-  height: 16rem;
+  height: 16px;
 
   @media (max-width: 340px){
-    font-size:12rem;
+    font-size:12px;
   }
 
   li {
     display: inline-block;
     position: relative;
-    padding: 0 10rem;
+    padding: 0 10px;
   }
 
   li:first-child::after {
     content: "";
-    width: 1rem;
-    height: 16rem;
+    width: 1px;
+    height: 16px;
     background: var(--border);
     position: absolute;
     right: 0;

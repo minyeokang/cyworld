@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 
 const UpdatedNewsContainer = styled.div`
   h2 {
-    font-size: 13rem;
+    font-size: 13px;
     color: var(--mint);
-    border-bottom: 1rem solid var(--border);
-    padding-bottom: 5rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 5px;
   }
 
   ul {
-    margin-top: 5rem;
+    margin-top: 5px;
   }
 
   ul li {
@@ -18,28 +18,28 @@ const UpdatedNewsContainer = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 20rem;
-    margin-bottom: 5rem;
-    font-size: 14rem;
+    padding-left: 20px;
+    margin-bottom: 5px;
+    font-size: 14px;
 
     &::before {
       content: "📌";
-      width: 10rem;
-      height: 10rem;
+      width: 10px;
+      height: 10px;
       position: absolute;
-      left: 1rem;
-      top: 6rem;
-      font-size: 10rem;
+      left: 1px;
+      top: 6px;
+      font-size: 10px;
     }
   }
 
   .tag {
     display: inline-block;
-    border-radius: 5rem;
+    border-radius: 5px;
     color: #fff;
-    font-size: 13rem;
-    padding: 3rem;
-    margin-right: 5rem;
+    font-size: 13px;
+    padding: 3px;
+    margin-right: 5px;
 
     &.blue {
       background: var(--blue);
@@ -55,7 +55,7 @@ const UpdatedNewsContainer = styled.div`
   }
 
   .date {
-    font-size: 13rem;
+    font-size: 13px;
     color: var(--darkgray);
   }
 `;
